@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    height: max-content;
+    padding: 1%;
+    background-color: #F86F03;
+    border: none;
+    border-radius: 4px;
+    color: #FFF6F4;
+    cursor: pointer;
+}
+
+.info{
+    font-size: xx-small;
+    font-style: italic;
+}

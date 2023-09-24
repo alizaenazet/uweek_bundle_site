@@ -1,0 +1,138 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form {
+    margin-top: 5% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eg {
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+
+.insert {
+    background-color: #F86F03;
+    border: none;
+    padding: 1%;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #FFF6F4;
+    cursor: pointer;
+}
+.fieldName{
+    font-weight: bold;
+    font-size: small;
+}
+.input {
+    border: #525FE1 1.5px solid;
+    padding: 1%;
+    border-radius: 4px;
+    color: #FFA41B;
+    background-color: #FFF6F4;
+}
+
+.totalPembelian {
+    border: 2px #FFF6F4  solid;
+    background-color: #F86F03;
+    border-radius: 6px;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.city{
+    font-size: small;
+    font-weight: bold;
+    border: #525FE1 1.5px solid;
+    padding: 1%;
+    border-radius: 4px;
+    color: #FFA41B;
+    background-color: #FFF6F4;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alamatContainer {
+    border: 2px #FFF6F4  solid;
+    border-radius: 6px;
+    background-color: #F86F03;
+    padding: 1% ;
+    display: flex;
+    margin: 3% 0;
+    font-size: smaller;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: fit-content;
+}
+.displayAlamat{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+
+}
+
+.schedule{
+    text-align: center;
+    width: fit-content;
+    font-size: small;
+    font-weight: bold;
+    border: #525FE1 1.5px solid;
+    padding: 1%;
+    border-radius: 4px;
+    color: #FFA41B;
+    background-color: #FFF6F4;
+    cursor: pointer;
+}
+.alamatPenerima {
+    min-width: 70%;
+    min-height: 10%;
+}
+.textField {
+    width: max-content;
+    min-width: 50%;
+    text-align: center;
+}
+
+.info {
+    font-weight: bold;
+    font-size: small;
+}
+
+.value {
+    font-size: smaller;
+}
+
+.totalPembelianLine{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1%;
+    width: 100%;
+    border-bottom: #FFF6F4 1px solid;
+
+}

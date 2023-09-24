@@ -1,0 +1,75 @@
+
+.tables {
+    
+    border: 2px #FFF6F4 solid ;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #F86F03;
+    margin: 1%;
+}
+
+.table {
+    /* border: 5px #FFF6F4 solid; */
+    /* padding: 3px; */
+    border-collapse: collapse;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.schedule {
+    /* border: 1px #FFF6F4 solid; */
+    border-bottom: 2px #FFF6F4 solid;
+
+    border-collapse: collapse;
+}
+
+.th, .td {
+    border: 1px ;
+    font-size: small;
+    text-align: center;
+    border-bottom: 2px #FFF6F4 solid;
+    border-collapse: collapse;
+}
+
+.selectSchedule {
+    width: min-content;
+}
+
+.pickUpOptionDisplay {
+    border: 2px #FFF6F4 solid ;
+    margin: 6px;
+    background-color: #F86F03;
+    padding: 3%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+.totalContainer {
+    background-color: #F86F03;
+    border: 2px #FFF6F4 solid ;
+    padding: 2%;
+    border-radius: 6px;
+    display: flex;
+    font-size: smaller;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.totalContainerLine {
+    
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.instruction {
+    font-size: smaller;
+    margin-bottom: 3%;
+}
+

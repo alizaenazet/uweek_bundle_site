@@ -1,0 +1,16 @@
+.informations{
+    margin-top: 2%;
+    display: flex;
+    gap: 2%;
+}
+
+.image{
+    flex: 1;
+}
+
+.fields {
+
+    flex: 2;
+    flex-direction: column;
+}
+

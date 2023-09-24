@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.posterImg {
+  border-radius: 12px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .testTxt { color: red;}
+}

@@ -1,0 +1,23 @@
+.container {
+
+}
+
+
+.informations{
+    display: flex;
+    gap: 1%;
+    align-items: flex-end;
+}
+
+.image{
+    flex: 1;
+}
+
+.textArea{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+}
+
+
